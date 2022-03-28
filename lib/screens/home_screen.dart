@@ -71,7 +71,7 @@ class HomeScreen extends StatelessWidget {
                                 child: CachedNetworkImage(
                                   imageUrl: snap.data![index].profilePicture!,
                                   errorWidget: (ctx, _, __) =>
-                                      Image.asset(AssetManager.admin),
+                                      Image.asset(AssetManager.notavi),
                                 ),
                               ),
                               title: Text(

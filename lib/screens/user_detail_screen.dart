@@ -54,7 +54,7 @@ class _UserDetailsScreenState extends State<UserDetailsScreen> {
                 width: size.width,
                 child: CachedNetworkImage(
                   imageUrl: widget.user.profilePicture!,
-                  errorWidget: (ctx, _, __) => Image.asset(AssetManager.admin),
+                  errorWidget: (ctx, _, __) => Image.asset(AssetManager.notavi),
                 ),
               ),
               Positioned(
